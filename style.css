@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Dancing+Script:wght@600&display=swap');
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -13,6 +13,10 @@ header, footer {
     background-color: #1f1f1f;
     padding: 1em 0;
     text-align: center;
+}
+
+header h1, footer p {
+    font-family: 'Dancing Script', cursive;
 }
 
 header h1 {
@@ -57,20 +61,4 @@ nav a:hover {
     max-width: 100%;
     height: auto;
     display: block;
-    margin: 1em auto;
-    border: 2px solid #00aaff;
-}
-
-.section a {
-    color: #e0e0e0;
-    text-decoration: none;
-}
-
-.section a:hover {
-    color: #00aaff;
-}
-
-footer p {
-    margin: 0;
-    font-size: 1em;
-}
+    margin: 
